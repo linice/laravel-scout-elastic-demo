@@ -1,8 +1,70 @@
-/node_modules
-/public/storage
-/storage/*.key
-/vendor
-/.idea
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+
+# los2 add
 Homestead.json
 Homestead.yaml
+_ide_helper_models.php
+_ide_helper.php
+mix-manifest.json
+nohup.out
+npm-debug.log
+.DS_Store
 .env
+.phpstorm.meta.php
+/app/Http/Controllers/Test/TmpController.php
+/app/Jobs/Tmp.php
+/app/Service/Test/TmpService.php
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/.idea
